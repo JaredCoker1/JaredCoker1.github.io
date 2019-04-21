@@ -1,0 +1,128 @@
+#navbar{
+	background-color: black;
+	margin-bottom:0px;
+	margin-top:-32px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-right:75px;
+	height:auto;
+	width:100%;
+	position:fixed;
+	z-index:999;
+}
+#top{
+	background-color:#303F42;
+	padding:1px;
+	margin-bottom:0px;
+	margin-top:32px;
+	margin-right:75px;
+	margin-left:75px;
+	height:auto;
+	width:auto;
+}
+#mid{
+	background-color: #CD1D1D;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-right:75px;
+	margin-left:75px;
+	padding:30px;
+	padding-top:20px;
+	height:750px;
+	width:auto;
+	z-index:-1;
+}
+h1{
+	font-family: "Verdana", Georgia, Serif;
+	position: relative;
+	font-size:48px;
+	padding:0px;
+	text-align:center;
+	Color:White;
+}
+h2{
+	text-align:center;
+	font-family: "Verdana", Georgia, Serif;
+	vertical-align:middle;
+	padding:0px;
+}
+
+#midP{
+	padding:20px;
+	background-color:MediumSeaGreen;
+	width:auto;
+	height:auto;
+	
+}
+#navButton1{
+	margin-top:0px;
+	margin-right:71px;
+	float:right;
+	font-size:28px;
+	padding:2px;
+	border:solid black 4px;
+	border-radius:3px;
+}
+#navButton2{
+	margin-top:0px;
+	margin-right:0px;
+	float:right;
+	position: relative;
+	font-size:28px;
+	padding:2px;
+	border:solid black 4px;
+	border-radius:3px;
+}
+#navButton3{
+	margin-top:0px;
+	margin-right:0px;
+	float:right;
+	position: relative;
+	font-size:28px;
+	padding:2px;
+	border:solid black 4px;
+	border-radius:3px;
+}
+.navButton:hover{
+	background-color:DodgerBlue;
+	transition: background-color 0.5s ease;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background:url("https://www.nasa.gov/sites/default/files/thumbnails/image/darkrift-orig_full.jpg"),black;
+	background-size: contain, cover;
+}
+#pic{
+	border: solid black 2px;
+	width:113px;
+	height:40px;
+	float:left;
+	margin-left:75px;
+}
+#footer{
+	width:auto;
+	height:50px;
+	background-color:black;
+	margin-top:0px;
+	padding-left:75px;
+	margin-top:-32px;
+	padding-right:75px;
+}
+h4{
+	font-size:36px;
+	font-family: "Verdana", Georgia, Serif;
+}
+.para{
+	font-family: "Verdana", Georgia, Serif;
+	font-size:28px;
+}
+#foot{
+	font-family: "Verdana", Georgia, Serif;
+	padding-right:100px;
+	padding-left:100px;
+	padding-top:15px;
+	color:white;
+	text-align:center;
+	width:auto;
+}
