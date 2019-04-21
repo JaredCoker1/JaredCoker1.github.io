@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="TTT.css">
+<script type="text/javascript" src="TTT.js"></script>
+<html>
+<head>
+	<title>TicTacToe</title>
+</head>
+<body>
+	<div id="navbar">
+		<!--<h2>Navigation Bar</h2>-->
+		<a href="WebsiteHome.html"><img id="pic" src="https://wallpapercave.com/wp/NIfLFrm.png"></a>
+		<button id="navButton1" class="navButton" type="button" onclick="alert('Hello world!')">Other</button>
+		<button id="navButton2" class="navButton" type="button" onclick="alert('Hello world!')">Resources</button>
+		<button id="navButton3" class="navButton" type="button" onclick="location.href='Games.html';">Games</button>
+	</div>
+	<div id="top">
+		<h1>Tic Tac Toe</h1>
+	</div>
+	<div id="mid">
+		<div class="log" id="log">
+			<h3>GAME LOG</h3>
+			<p id="paralog"></p>
+		</div>
+	
+		<div id="board">
+			<table>
+				<tr>
+					<th></th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td><img class="white" src="white.jpg" id="boardpic1" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+					<td><img class="white" src="white.jpg" id="boardpic2" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+					<td><img class="white" src="white.jpg" id="boardpic3" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><img class="white" src="white.jpg" id="boardpic4" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+					<td><img class="white" src="white.jpg" id="boardpic5" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+					<td><img class="white" src="white.jpg" id="boardpic6" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td><img class="white" src="white.jpg" id="boardpic7" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+					<td><img class="white" src="white.jpg" id="boardpic8" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+					<td><img class="white" src="white.jpg" id="boardpic9" style="width:150px;height:150px;" onclick="checkStart(this);"></td>
+				</tr>
+			</table>
+		
+		
+		</div>
+		<div id="start">
+			<p id="start">Click START to begin a game</p>
+			<a class="btn" id="startbtn" name="button" href="#" onclick="start()">START</a>
+		</div>
+	</div>
+	<footer id="footer">
+		<p id="foot">-Posted by: Jared Coker-    -Contact information: <a href="mailto:jaredgcoker@gmail.com">jaredgcoker@gmail</a>-    -June 14, 2018</p>
+	</footer>
+</body>
+</html>

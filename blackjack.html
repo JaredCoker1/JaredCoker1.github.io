@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="blackjack.css">
+<script type="text/javascript" src="blackjack.js"></script>
+<title>BlackJack</title>
+</head>
+
+<body>
+	<div id="navbar">
+		<!--<h2>Navigation Bar</h2>-->
+		<a href="WebsiteHome.html"><img id="pic" src="https://wallpapercave.com/wp/NIfLFrm.png"></a>
+		<button id="navButton1" class="navButton" type="button" onclick="alert('Hello world!')">Other</button>
+		<button id="navButton2" class="navButton" type="button" onclick="alert('Hello world!')">Resources</button>
+		<button id="navButton3" class="navButton" type="button" onclick="location.href='Games.html';">Games</button>
+	</div>
+	<div id="top">
+		<h1>BlackJack</h1>
+	</div>
+	<div id="contain">
+	<div id="mid1">
+		<button id="d1" class="cards" type="button" onclick="alert('Click Deal to Start')">Dealer1</button>
+		<button id="d2" class="cards" type="button" onclick="alert('Click Deal to Start')">Dealer2</button>
+	</div>
+	<div id="mid2">
+		<button id="p1" class="cards" type="button" onclick="alert('Click Deal to Start')">Player1</button>
+		<button id="p2" class="cards" type="button" onclick="alert('Click Deal to Start')">Player2</button>
+	</div>
+	<div id="mid3">
+		<button id="deal" class="playcards" name="button" type="button" href="#" onclick="deal()">Deal</button>
+		<button id="hit" class="playcards" name="button" type="button" href="#" onclick="hitter()">Hit</button>
+		<button id="betbutton" class="playcards" name="button" type="button" href="#" onclick="betmore()">Bet $100</button>
+		<button id="lessbutton" class="playcards" name="button" type="button" href="#" onclick="return lessbet()">Take $100</button>
+		<button id="reset" class="playcards" name="button" type="button" onclick="window.location.reload()">Reset</button>
+		<button id="hold" class="playcards" name="button" type="button" onclick="hold()">Hold</button>
+		<p id="money">Money: $1000</p>
+		<p id="bet">Bet: $0</p>
+	</div>
+	<p id="gamelog">Place your bet!</p>
+	</div>
+	<footer id="footer">
+		<p id="foot">-Posted by: Jared Coker-    -Contact information: <a href="mailto:jaredgcoker@gmail.com">jaredgcoker@gmail</a>-    -June 14, 2018</p>
+	</footer>
+</body>
+
+</html> 
